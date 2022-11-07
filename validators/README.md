@@ -1,6 +1,6 @@
 # Submit your BP node to Auro Wallet
 
-1. Update list.json file add BP node info. Don't change the order, The order in which BP nodes are displayed in the wallet is independent of the order in list.json
+1. Add BP node info by update `list.json` file. Don't change the order, The order in which BP nodes are displayed in the wallet is independent of the order in list.json
  
 ```
 {
@@ -19,7 +19,7 @@
 `fee` BP node fee, 5 mean is 5%
 
 2. Make a folder with BP address, add your logo to  "assets/{bp-node-address}/logo.png"
-- Logo resolution should be 128*128
+- Logo resolution should be 128*128px
 - Logo name should be `logo.png`
 
 3. Make a PR

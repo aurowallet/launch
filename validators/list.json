@@ -131,5 +131,12 @@
         "website": "",
         "description": "",
         "Fee":
+    },
+    {
+        "id": "B62qphpEdBwSycpN67XFjcXSEY9j18chmttFTXYerhTPMX4JkXubWkd",
+        "name": "staker_rash",
+        "website": "https://stakerrash.co",
+        "description": "Your staking service provider.",
+        "Fee": 5
     }
 ]

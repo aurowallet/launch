@@ -133,11 +133,11 @@
         "Fee":
     },
     {
-	    "id": "B62qmpQbytpsLD2mjaXmLzk9j6QpaHsv7VXnyZFmW4DmvNBmfrvQ5eB",
-	    "name": "Syd - Mina FR Staking Community",
-	    "website": "https://github.com/Syd-ai/Mina-FR-Staking-Community",
-	    "description": "Simple Staking for Mina French Community",
-	    "Fee": 5
+	"id": "B62qmpQbytpsLD2mjaXmLzk9j6QpaHsv7VXnyZFmW4DmvNBmfrvQ5eB",
+	"name": "Syd - Mina FR Staking Community",
+	"website": "https://github.com/Syd-ai/Mina-FR-Staking-Community",
+	"description": "Simple Staking for Mina French Community",
+	"Fee": 5
     }
         
 ]

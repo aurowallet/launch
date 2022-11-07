@@ -19,7 +19,7 @@
 `fee` BP node fee, 5 mean is 5%
 
 2. Make a folder with BP address, add your logo to  "assets/{bp-node-address}/logo.png"
-- Logo resolution should be 128*128
+- Logo resolution should be 128*128px
 - Logo name should be `logo.png`
 
 3. Make a PR

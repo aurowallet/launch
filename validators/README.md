@@ -13,7 +13,7 @@
 ```
 
 `id` BP node address  
-`name` BP node name  
+`name` BP node name, It's better not to exceed 16 characters, more than 16 characters will be replaced by ellipses.
 `website` BP node website  
 `description` BP node description  
 `fee` BP node fee, 5 mean is 5%

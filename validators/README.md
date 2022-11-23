@@ -1,6 +1,6 @@
 # Submit your BP node to Auro Wallet
 
-1. Add BP node info by update `list.json` file. Don't change the order, The order in which BP nodes are displayed in the wallet is independent of the order in list.json
+**1. Add BP node info by update `list.json` file. Don't change the order, The order in which BP nodes are displayed in the wallet is independent of the order in list.json**
  
 ```
 {
@@ -8,18 +8,14 @@
 	"name": "Auro Wallet",
 	"website": "https://www.aurowallet.com",
 	"description": "A simple yet powerful Mina Protocol Wallet",
-	"Fee": 5
+	"fee": 5
 }
 ```
+ 
+`fee` is BP commission fee, value 5 mean is 5%
 
-`id` BP node address  
-`name` BP node name, It's better not to exceed 16 characters, more than 16 characters will be replaced by ellipses in wallet.  
-`website` BP node website  
-`description` BP node description  
-`fee` BP node fee, 5 mean is 5%
-
-2. Make a folder with BP address, add your logo to  "assets/{bp-node-address}/logo.png"
+**2. Make a folder with BP address, add your logo to  "assets/{bp-node-address}/logo.png"**
 - Logo resolution should be 128*128px
 - Logo name should be `logo.png`
 
-3. Make a PR
+**3. Make a PR**

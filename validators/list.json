@@ -4,160 +4,167 @@
         "name": "Auro Wallet",
         "website": "https://www.aurowallet.com",
         "description": "A simple yet powerful Mina Protocol Wallet",
-        "Fee": 5
+        "fee": 5
     },
     {
         "id": "B62qpge4uMq4Vv5Rvc8Gw9qSquUYd6xoW1pz7HQkMSHm6h1o7pvLPAN",
         "name": "Mina Explorer",
         "website": "https://www.minaexplorer.com",
         "description": "The first Mina Protocol block explorer",
-        "Fee": 5
+        "fee": 5
     },
     {
         "id": "B62qjCuPisQjLW7YkB22BR9KieSmUZTyApftqxsAuB3U21r3vj1YnaG",
         "name": "Figment",
         "website": "https://figment.io/",
         "description": "",
-        "Fee": 10
+        "fee": 10
     },
     {
         "id": "B62qqV16g8s744GHM6Dph1uhW4fggYwyvtDnVSoRUyYqNvTir3Rqqzx",
         "name": "Staketab",
         "website": "https://staketab.com",
         "description": "",
-        "Fee": 7
+        "fee": 7
     },
     {
         "id": "B62qopHVr6nGCsQgrvsBsoxDm1E5CEdMkDSN3jneRnxKpR5iiXnTbas",
         "name": "InfStones",
         "website": "https://infstones.io/",
         "description": "",
-        "Fee":
+        "fee":
     },
     {
         "id": "B62qs2Lw5WZNSjd8eHBUZXFYyRjV8oKtrZMFDn1S1Ye62G71xCQJMYM",
         "name": "P2P Validator",
         "website": "https://p2p.org",
         "description": "",
-        "Fee": 8
+        "fee": 8
     },
     {
         "id": "B62qpYmDbDJAyADVkJzydoz7QeZy1ZTiWeH1LSuyMxXezvu5mAQi53U",
         "name": "Everstake",
         "website": "https://everstake.one",
         "description": "",
-        "Fee": 5
+        "fee": 5
     },
     {
         "id": "B62qrHzjcZbYSsrcXVgGko7go1DzSEBfdQGPon5X4LEGExtNJZA4ECj",
         "name": "ZKValidator",
         "website": "https://zkvalidator.com",
         "description": "",
-        "Fee": 10
+        "fee": 10
     },
     {
         "id": "B62qmFf6UZn2sg3j8bYLGmMinzS2FHX6hDM71nFxAfMhvh4hnGBtkBD",
         "name": "Chorus One",
         "website": "https://chorus.one",
         "description": "",
-        "Fee": 10
+        "fee": 10
     },
     {
         "id": "B62qrQiw9JhUumq457sMxicgQ94Z1WD9JChzJu19kBE8Szb5T8tcUAC",
         "name": "Piconbello",
         "website": "https://mina.piconbello.com",
         "description": "",
-        "Fee": 0
+        "fee": 0
     },
     {
         "id": "B62qq6ZYPG5JsjZnGJ3pADmRn6hU6qy13EhraTSymjSgyEDwoDR9Gd6",
         "name": "Carbonara WeStake.club",
         "website": "https://mina.westake.club/",
         "description": "",
-        "Fee": 2
+        "fee": 2
     },
     {
         "id": "B62qpsikYYhTaAXw8XdgGhQtLsnecHF89LZdW2bGTa4aj4mePWPHxPe",
         "name": "6block",
         "website": "",
         "description": "",
-        "Fee": 0.1
+        "fee": 0.1
     },
     {
         "id": "B62qkj3CCj2V3pBPPufCuWSkoP2RwjAZkgPZfLKFUae3hPoBEhRtmyo",
         "name": "BiXinKeLePool",
         "website": "https://www.kelepool.com",
         "description": "",
-        "Fee": 10
+        "fee": 10
     },
     {
         "id": "B62qnSjFGjZ39C8iDGMErbFSX5NvKVyvjvHxvf7U1oDmyeU6ynxXZZF",
         "name": "PhDSOON",
         "website": "https://phdsoon-staking.com",
         "description": "",
-        "Fee": 4
+        "fee": 4
     },
     {
         "id": "B62qs2P91UjdhngetBJ57C56HQ8t5V7ECAYWBvpkaC45ovXNgnzqfG6",
         "name": "TheNOP.io",
         "website": "https://www.thenop.io",
         "description": "",
-        "Fee": 2
+        "fee": 2
     },
     {
         "id": "B62qnvKLdq3j46nuQML7govR1gNqfBjHtv86FzmfrAU9NPGd9BSzooh",
         "name": "DACM",
         "website": "https://dacm.io",
         "description": "",
-        "Fee": 3
+        "fee": 3
     },
     {
         "id": "B62qpXqPzauUXLnsAQFnYHMCiV9pRqG2wqbJ4pL936SVANHa66zkkQj",
         "name": "LowFeeValidation",
         "website": "https://lowfeevalidation.com",
         "description": "",
-        "Fee": 0
+        "fee": 0
     },
     {
         "id": "B62qrae3PEBj66KV2obWnzVxMjDCMuFWnyzxEzvLkQutaKPmWtfUPm3",
         "name": "atomi",
         "website": "",
         "description": "",
-        "Fee": 0
+        "fee": 0
     },
     {
         "id": "B62qjhiEXP45KEk8Fch4FnYJQ7UMMfiR3hq9ZeMUZ8ia3MbfEteSYDg",
         "name": "c29r3",
         "website": "",
         "description": "",
-        "Fee": 7
+        "fee": 7
     },
     {
         "id": "B62qphpEdBwSycpN67XFjcXSEY9j18chmttFTXYerhTPMX4JkXubWkd",
         "name": "staker_rash",
         "website": "https://stakerrash.co",
         "description": "Your staking service provider.",
-        "Fee": 5
+        "fee": 5
     },
     {
         "id": "B62qkBqSkXgkirtU3n8HJ9YgwHh3vUD6kGJ5ZRkQYGNPeL5xYL2tL1L",
         "name": "The Mina Pool",
         "website": "https://theminapool.com",
         "description": "Staking pool from jrwashburn - support open source mina community tools",
-        "Fee": 5
+        "fee": 5
     },
     {
         "id": "B62qnR6HKx34NCyDkSeRcJ44KATjUCs4xmQYDbwTXPJPQ4J6ebfeQe4",
         "name": "Syd - Mina FR Staking Community",
         "website": "https://github.com/Syd-ai/Mina-FR-Staking-Community/",
         "description": "Simple Staking for Mina French Community",
-        "Fee": 5
+        "fee": 5
+    },
+    {
+        "id": "B62qoazqR1ag2hDwjkSSm6qV3eJtkiPvVPKhfVyeea7TehBAWu4dWJ5",
+        "name": "StakeYourMina - Dheeraj",
+        "website": "https://www.stakeyourmina.com/",
+        "description": "We are a Genesis founding member of the Mina foundation and are committed to providing our delegators with the most reliable Mina staking services available in the industry.",
+        "fee": 1
     },
     {
         "id": "B62qpZTtpZL7QobzPX97h1f2CNFchXoXc4NJUZL1xdvNqTdwR5NCbkZ",
         "name": "UniqLabs",
         "website": "http://uniqlabs.org/",
         "description": "Stake with us.",
-        "Fee": 5
+        "fee": 5
     }
 ]

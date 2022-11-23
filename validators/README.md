@@ -11,7 +11,7 @@
 	"fee": 5
 }
 ```
- 
+`name` better not to exceed 16 characters, more than 16 characters will be replaced by ellipses in wallet.  
 `fee` is BP commission fee, value 5 mean is 5%
 
 **2. Make a folder with BP address, add your logo to  "assets/{bp-node-address}/logo.png"**

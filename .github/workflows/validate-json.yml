@@ -1,0 +1,23 @@
+name: Validate JSON files
+
+on:
+  pull_request:
+    branches: [master]
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Validate JSON files
+        run: |
+          npm install -g jsonlint
+          for file in $(find . -name "*.json"); do
+            if jsonlint -q $file; then
+              echo "Validation successful: $file"
+            else
+              echo "Validation failed: $file"
+              exit 1
+            fi
+          done

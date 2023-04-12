@@ -14,5 +14,15 @@ jobs:
         run: |
           npm install -g jsonlint
           for file in $(find . -name "*.json"); do
-            jsonlint -q $file || exit 1
+            if jsonlint -q $file; then
+              echo "Validation successful: $file"
+            else
+              echo "Validation failed: $file"
+              exit 1
+            fi
           done
+      - name: Comment on PR if failed
+        if: failure()
+        uses: unsplash/comment-on-failure@v1.0.1
+        with:
+          message: "The following JSON files failed validation: $(find . -name '*.json' -type f -printf '\n- %p')"

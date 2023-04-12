@@ -1,16 +1,36 @@
-name: Check JSON syntax
+name: Validate JSON on PR
 
 on:
-  push:
+  pull_request:
     branches: [master]
 
 jobs:
-  check-syntax:
+  validate-json:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.ref }}
       - name: Validate JSON
         run: |
           npm install -g jsonlint
           jsonlint -q validators/list.json
+        continue-on-error: true
+      - name: Comment on PR
+        if: always()
+        uses: unsplash/comment-on-pr@v1
+        with:
+          message: |
+            The JSON file is invalid. Please correct the errors and try again.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REACTIONS_ENABLED: "true"
+        env:
+          VALID_JSON: "true"
+      - name: Approve PR
+        if: always() && env.VALID_JSON
+        uses: peter-evans/approval@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          pull-request-number: ${{ github.event.number }}

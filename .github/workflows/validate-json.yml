@@ -1,17 +1,16 @@
-name: Validate JSON Syntax
-on: [push, pull_request]
+name: Check JSON syntax
+
+on:
+  push:
+    branches: [master]
 
 jobs:
-  json_syntax_check:
+  check-syntax:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
-      - name: Validate JSON Syntax
+      - name: Validate JSON
         run: |
-          if ! curl -s https://raw.githubusercontent.com/aurowallet/launch/master/validators/list.json | jq empty 2>&1 >/dev/null; then
-            echo "JSON syntax check failed"
-            exit 1
-          fi
+          npm install -g jsonlint
+          jsonlint -q validators/list.json

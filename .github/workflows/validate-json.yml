@@ -1,5 +1,6 @@
 name: Validate JSON on PR
 
+
 on:
   pull_request:
     branches: [master]

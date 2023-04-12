@@ -23,6 +23,13 @@ jobs:
           done
       - name: Comment on PR if failed
         if: failure()
-        uses: unsplash/comment-on-failure@v1.0.1
+        uses: actions/github-script@v4
         with:
-          message: "The following JSON files failed validation: $(find . -name '*.json' -type f -printf '\n- %p')"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'The following JSON files failed validation:\n' + $(find . -name '*.json' -type f -printf '\n- %p')
+            })

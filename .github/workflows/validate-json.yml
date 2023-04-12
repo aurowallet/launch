@@ -31,5 +31,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: 'The following JSON files failed validation:\n' + $(find . -name '*.json' -type f -printf '\n- %p')
+              body: 'JSON files failed validation')
             })

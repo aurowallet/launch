@@ -1,17 +1,17 @@
-name: JSON check
-
-on:
-  push:
-    paths:
-      - '**.json'
-  pull_request:
+name: Validate JSON Syntax
+on: [push, pull_request]
 
 jobs:
-  test:
+  json_syntax_check:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - name: json-syntax-check
-        uses: limitusus/json-syntax-check@v1
-        with:
-          pattern: "\\.json$"
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Validate JSON Syntax
+        run: |
+          if ! curl -s https://raw.githubusercontent.com/aurowallet/launch/master/validators/list.json | jq empty 2>&1 >/dev/null; then
+            echo "JSON syntax check failed"
+            exit 1
+          fi

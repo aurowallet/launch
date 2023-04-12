@@ -16,20 +16,40 @@ jobs:
       - name: Validate JSON
         run: |
           npm install -g jsonlint
-          jsonlint -q validators/list.json
+          for file in $(git diff --name-only HEAD^ HEAD | grep "\.json$"); do
+            jsonlint -q $file
+          done
         continue-on-error: true
       - name: Comment on PR
         if: always()
         uses: unsplash/comment-on-pr@v1
         with:
           message: |
-            The JSON file is invalid. Please correct the errors and try again.
+            The JSON files contain errors. Please correct the errors and try again.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REACTIONS_ENABLED: "true"
         env:
           VALID_JSON: "true"
-      - name: Approve PR
+      - name: Request changes
         if: always() && env.VALID_JSON
+        uses: unsplash/request-changes-on-pr@v1
+        with:
+          message: |
+            The JSON files are valid, but you still need to manually approve the changes.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Check if PR is approved
+        if: always() && env.VALID_JSON
+        uses: unsplash/check-if-pr-is-approved@v1
+        id: check-approval
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Wait for approval
+        if: always() && env.VALID_JSON && steps.check-approval.outputs.approved == 'false'
+        uses: unsplash/wait-for-approval@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Approve PR
+        if: always() && env.VALID_JSON && steps.check-approval.outputs.approved == 'true'
         uses: peter-evans/approval@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}

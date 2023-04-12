@@ -1,31 +1,25 @@
-# NOTE: This name appears in GitHub's Checks API and in workflow's status badge.
-name: ci-validate-json
-
-# Trigger the workflow when:
 on:
-  # A push occurs to one of the matched branches.
-  push:
-    branches:
-      - master
-  # Or when a pull request event occurs for a pull request against one of the
-  # matched branches.
   pull_request:
     branches:
       - master
-
+name: Pull request workflow
 jobs:
-  verify:
-    # NOTE: This name appears in GitHub's Checks API.
-    name: verify
+  validate_configurations:
+    name: Validate configurations
     runs-on: ubuntu-latest
     steps:
-      - name: json-schema-validation
-        # You may pin to the exact commit or the version.
-        # uses: emagers/json-schema-validation@62cee54e1826c5c8576f84b314450f2c09111824
-        uses: emagers/json-schema-validation@v1.0.2
+      - uses: actions/checkout@v2
+      - name: Validate BigQuery schema
+        uses: snapcart/json-schema-validator@v1.0.0
         with:
-          # The filename of the JSON schema
-          schema: ./validators/list.json
-          # The filename of the JSON test file
-          testFile: ./validators/list.json
-          
+          token: ${{ secrets.GITHUB_TOKEN }}
+          json_schema: ./schemas/bigquery_schema.schema
+          json_path_pattern: .*bigquery_schema.json$
+          send_comment: true
+          clear_comments: true
+      - name: Validate other schema
+        uses: snapcart/json-schema-validator@v1.0.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          json_schema: ./schemas/other_schema.schema
+          json_path_pattern: .*list.json$

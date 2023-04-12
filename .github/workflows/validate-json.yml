@@ -25,7 +25,7 @@ jobs:
         uses: emagers/json-schema-validation@v1.0.2
         with:
           # The filename of the JSON schema
-          schema: 
+          schema: /validators/list.json
           # The filename of the JSON test file
           testFile: /validators/list.json
           

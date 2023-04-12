@@ -1,6 +1,5 @@
 name: Validate JSON on PR
 
-
 on:
   pull_request:
     branches: [master]
@@ -11,47 +10,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-          ref: ${{ github.event.pull_request.head.ref }}
-      - name: Validate JSON
+      - name: Validate JSON files
         run: |
           npm install -g jsonlint
-          for file in $(git diff --name-only HEAD^ HEAD | grep "\.json$"); do
-            jsonlint -q $file
+          for file in $(find . -name "*.json"); do
+            jsonlint -q $file || exit 1
           done
-        continue-on-error: true
-      - name: Comment on PR
-        if: always()
-        uses: unsplash/comment-on-pr@v1
-        with:
-          message: |
-            The JSON files contain errors. Please correct the errors and try again.
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REACTIONS_ENABLED: "true"
-        env:
-          VALID_JSON: "true"
-      - name: Request changes
-        if: always() && env.VALID_JSON
-        uses: unsplash/request-changes-on-pr@v1
-        with:
-          message: |
-            The JSON files are valid, but you still need to manually approve the changes.
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Check if PR is approved
-        if: always() && env.VALID_JSON
-        uses: unsplash/check-if-pr-is-approved@v1
-        id: check-approval
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Wait for approval
-        if: always() && env.VALID_JSON && steps.check-approval.outputs.approved == 'false'
-        uses: unsplash/wait-for-approval@v1
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Approve PR
-        if: always() && env.VALID_JSON && steps.check-approval.outputs.approved == 'true'
-        uses: peter-evans/approval@v2
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          pull-request-number: ${{ github.event.number }}

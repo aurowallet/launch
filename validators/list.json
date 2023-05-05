@@ -160,6 +160,13 @@
         "description": "Stake with us.",
         "fee": 5
     },
+        {
+        "id": "B62qjWchpjVwmbEazciy3VSBZhJNVF28RcDQirLFpH2rvfmDrtXL382",
+        "name": "ImStaked",
+        "website": "https://imstaked.com/mina-protocol",
+        "description": "Genesis Founding Member",
+        "fee": 8
+    },
     {
         "id": "B62qkj3CCj2V3pBPPufCuWSkoP2RwjAZkgPZfLKFUae3hPoBEhRtmyo",
         "name": "BiXinKeLePool",

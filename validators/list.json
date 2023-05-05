@@ -84,13 +84,6 @@
         "fee": 0.1
     },
     {
-        "id": "B62qkj3CCj2V3pBPPufCuWSkoP2RwjAZkgPZfLKFUae3hPoBEhRtmyo",
-        "name": "BiXinKeLePool",
-        "website": "https://www.kelepool.com",
-        "description": "",
-        "fee": 10
-    },
-    {
         "id": "B62qnSjFGjZ39C8iDGMErbFSX5NvKVyvjvHxvf7U1oDmyeU6ynxXZZF",
         "name": "PhDSOON",
         "website": "https://phdsoon-staking.com",
@@ -167,11 +160,25 @@
         "description": "Stake with us.",
         "fee": 5
     },
+        {
+        "id": "B62qjWchpjVwmbEazciy3VSBZhJNVF28RcDQirLFpH2rvfmDrtXL382",
+        "name": "ImStaked",
+        "website": "https://imstaked.com/mina-protocol",
+        "description": "Genesis Founding Member",
+        "fee": 8
+    },
     {
         "id": "B62qkj3CCj2V3pBPPufCuWSkoP2RwjAZkgPZfLKFUae3hPoBEhRtmyo",
         "name": "BiXinKeLePool",
         "website": "https://www.kelepool.com",
         "description": "KelePool dedicates to providing a neutral and reliable infrastructure for blockchain.",
         "fee": 100
+    },
+    {
+        "id": "B62qoB94nRGJFTf9qzXVUDnLC88zt7fBcxdfTsr2FmByJqKNHFy6GH5",
+        "name": "PeachStake",
+        "website": "",
+        "description": "",
+        "fee": 3
     }
 ]

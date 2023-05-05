@@ -181,4 +181,11 @@
         "description": "",
         "fee": 3
     }
+    {
+	"id": "B62qpanxZjnQLtZHQfY8VGgCYyE29aDcG7BL2KwkQJbDzaSxwwZqT7i",
+	"name": "o2Stake",
+	"website": "https://www.o2stake.com/",
+	"description": "Validator since Mina Genesis!",
+	"fee": 100
+    }
 ]

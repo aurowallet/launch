@@ -166,5 +166,12 @@
         "website": "https://www.kelepool.com",
         "description": "KelePool dedicates to providing a neutral and reliable infrastructure for blockchain.",
         "fee": 100
+    },
+    {
+        "id": "B62qoB94nRGJFTf9qzXVUDnLC88zt7fBcxdfTsr2FmByJqKNHFy6GH5",
+        "name": "PeachStake",
+        "website": "",
+        "description": "",
+        "fee": 3
     }
 ]

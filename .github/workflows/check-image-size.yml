@@ -1,0 +1,29 @@
+name: Check image size
+
+on:
+  pull_request:
+    paths:
+      - validators/assets/**.png
+      - validators/assets/**.jpg
+      - validators/assets/**.jpeg
+
+jobs:
+  check-image-size:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Check image size
+        uses: dawidd6/action-image-size@v2.0.0
+        with:
+          path: validators/assets/
+          max-width: 128
+          max-height: 128
+
+      - name: Fail if image size is too big
+        run: |
+          if [ ${{ steps.check-image-size.outputs.failed }} == "true" ]; then
+            echo "Image size is too big"
+            exit 1
+          fi

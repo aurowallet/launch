@@ -180,5 +180,12 @@
         "website": "",
         "description": "",
         "fee": 3
+    },
+    {
+	"id": "B62qjhiEXP45KEk8Fch4FnYJQ7UMMfiR3hq9ZeMUZ8ia3MbfEteSYDg",
+	"name": "c29r3",
+	"website": "https://github.com/c29r3",
+	"description": "Feedback https://t.me/+NdymOf3G8NtjN2Qy",
+	"fee": 7
     }
 ]

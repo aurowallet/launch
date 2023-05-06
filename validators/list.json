@@ -180,5 +180,12 @@
         "website": "",
         "description": "",
         "fee": 3
+    },
+    {
+        "id": "B62qqSDsgPh4c6E4DQw1Rbo1dCtZJMivQtXTDJcL58m95pydVupDDRE",
+        "name": "WellDoneStake",
+        "website": "https://welldonestake.co",
+        "description": "Your reliable staking provider.",
+        "fee": 5
     }
 ]

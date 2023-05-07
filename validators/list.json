@@ -180,5 +180,12 @@
         "website": "",
         "description": "",
         "fee": 3
+    },
+    {
+        "id": "B62qik2auL1VbkX6fijdzwT6fGgjpi8caKUH6vbov573DbdT2UbQkDp",
+        "name": "0base.vc",
+        "website": "https://0base.vc",
+        "description": "Genesis Founding Member. Mina, Solana, and Cosmos Ecosystem Validator",
+        "fee": 5
     }
 ]

@@ -182,10 +182,31 @@
         "fee": 3
     },
     {
-	"id": "B62qpanxZjnQLtZHQfY8VGgCYyE29aDcG7BL2KwkQJbDzaSxwwZqT7i",
-	"name": "o2Stake",
-	"website": "https://www.o2stake.com/",
-	"description": "Validator since Mina Genesis!",
-	"fee": 100
+        "id": "B62qqSDsgPh4c6E4DQw1Rbo1dCtZJMivQtXTDJcL58m95pydVupDDRE",
+        "name": "WellDoneStake",
+        "website": "https://welldonestake.co",
+        "description": "Your reliable staking provider.",
+        "fee": 5
+    },
+    {
+        "id": "B62qik2auL1VbkX6fijdzwT6fGgjpi8caKUH6vbov573DbdT2UbQkDp",
+        "name": "0base.vc",
+        "website": "https://0base.vc",
+        "description": "Genesis Founding Member. Mina, Solana, and Cosmos Ecosystem Validator",
+        "fee": 5
+    },
+    {
+        "id": "B62qmLRLxC5Fx3cRmHDwKGq6psCbmXAYE1UsS4Z1foqrXCTtJuvTbbL",
+        "name": "Staker Space",
+        "website": "https://staker.space/",
+        "description": "Independent node operator that values decentralization!",
+        "fee": 5
+    },
+    {
+        "id": "B62qpanxZjnQLtZHQfY8VGgCYyE29aDcG7BL2KwkQJbDzaSxwwZqT7i",
+        "name": "o2Stake",
+        "website": "https://www.o2stake.com/",
+        "description": "Validator since Mina Genesis!",
+        "fee": 100
     }
 ]

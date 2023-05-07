@@ -201,5 +201,12 @@
         "website": "https://staker.space/",
         "description": "Independent node operator that values decentralization!",
         "fee": 5
+    },
+    {
+        "id": "B62qpanxZjnQLtZHQfY8VGgCYyE29aDcG7BL2KwkQJbDzaSxwwZqT7i",
+        "name": "o2Stake",
+        "website": "https://www.o2stake.com/",
+        "description": "Validator since Mina Genesis!",
+        "fee": 100
     }
 ]

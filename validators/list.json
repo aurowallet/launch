@@ -194,5 +194,12 @@
         "website": "https://0base.vc",
         "description": "Genesis Founding Member. Mina, Solana, and Cosmos Ecosystem Validator",
         "fee": 5
+    },
+    {
+        "id": "B62qmLRLxC5Fx3cRmHDwKGq6psCbmXAYE1UsS4Z1foqrXCTtJuvTbbL",
+        "name": "Staker Space",
+        "website": "https://staker.space/",
+        "description": "Independent node operator that values decentralization!",
+        "fee": 5
     }
 ]

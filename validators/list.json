@@ -229,5 +229,12 @@
         "website": "https://orang3.club/",
         "description": "We love oranges!",
         "fee": 10
+    },
+    {
+        "id": "B62qrgnUUduZy2z7zT8qCV8ngTJfSS1rK3Wh22SHUmrse3Tfqvrhx8q",
+        "name": "cyberG",
+        "website": "https://www.cyberg.digital/",
+        "description": "DVS validator",
+        "fee": 5
     }
 ]

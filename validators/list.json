@@ -215,5 +215,12 @@
         "website": "https://sgtstake.com/",
         "description": "Professional staking service provider",
         "fee": 5
+    },
+    {
+        "id": "B62qjwAoLA1iT82EQQidZDDovQND5PeJtmcZXq7USbNDGEqgYnBbKam",
+        "name": "OranG3cluB",
+        "website": "https://orang3.club/",
+        "description": "We love oranges!",
+        "fee": 10
     }
 ]

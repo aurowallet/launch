@@ -14,6 +14,13 @@
         "fee": 5
     },
     {
+        "id": "B62qjok2BD2jB6TArVM1oGDSo16xk1SYGzTwZSjx63WbtZy4BuzPBDj/delegations",
+        "name": "Stakin",
+        "website": "https://stakin.com",
+        "description": "Stakin.com provides reliable, non-custodial, compliant and secure staking services and web3 infrastructure for Mina and the Mina ecosystem.",
+        "fee": 5
+    },
+    {
         "id": "B62qjCuPisQjLW7YkB22BR9KieSmUZTyApftqxsAuB3U21r3vj1YnaG",
         "name": "Figment",
         "website": "https://figment.io/",

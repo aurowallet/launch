@@ -209,7 +209,7 @@
         "description": "Validator since Mina Genesis!",
         "fee": 100
     },
-        {
+    {
         "id": "B62qkd4tZQGe9mo5tK3wQi5PUoMdtUGtLWps6Se9o1qWdwNwuUtdWdr",
         "name": "SGTstake",
         "website": "https://sgtstake.com/",
@@ -217,10 +217,25 @@
         "fee": 5
     },
     {
+
         "id": "B62qjok2BD2jB6TArVM1oGDSo16xk1SYGzTwZSjx63WbtZy4BuzPBDj",
         "name": "Stakin",
         "website": "https://stakin.com",
         "description": "Stakin.com provides reliable, non-custodial, compliant and secure staking services and web3 infrastructure for Mina and the Mina ecosystem.",
         "fee": 5
+     },
+     {
+        "id": "B62qmM9KDeqvu3TVpQStGJARgg7KppxE8UF3xMdtKV9TDc33kSUGug5",
+        "name": "P2P Staking",
+        "website": "https://p2pstaking.org/",
+        "description": "Eco responsible staking service provider & Mina genesis member",
+        "fee": 5
+    },
+    {
+        "id": "B62qjwAoLA1iT82EQQidZDDovQND5PeJtmcZXq7USbNDGEqgYnBbKam",
+        "name": "OranG3cluB",
+        "website": "https://orang3.club/",
+        "description": "We love oranges!",
+        "fee": 10
     }
 ]

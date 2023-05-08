@@ -215,5 +215,12 @@
         "website": "https://sgtstake.com/",
         "description": "Professional staking service provider",
         "fee": 5
+    },
+        {
+        "id": "B62qmM9KDeqvu3TVpQStGJARgg7KppxE8UF3xMdtKV9TDc33kSUGug5",
+        "name": "P2P Staking",
+        "website": "https://p2pstaking.org/",
+        "description": "Eco responsible staking service provider & Mina genesis member",
+        "fee": 5
     }
 ]

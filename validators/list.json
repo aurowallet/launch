@@ -215,5 +215,12 @@
         "website": "https://sgtstake.com/",
         "description": "Professional staking service provider",
         "fee": 5
+    },
+    {
+        "id": "B62qjok2BD2jB6TArVM1oGDSo16xk1SYGzTwZSjx63WbtZy4BuzPBDj",
+        "name": "Stakin",
+        "website": "https://stakin.com",
+        "description": "Stakin.com provides reliable, non-custodial, compliant and secure staking services and web3 infrastructure for Mina and the Mina ecosystem.",
+        "fee": 5
     }
 ]

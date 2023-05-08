@@ -208,5 +208,12 @@
         "website": "https://www.o2stake.com/",
         "description": "Validator since Mina Genesis!",
         "fee": 100
+    },
+        {
+        "id": "B62qkd4tZQGe9mo5tK3wQi5PUoMdtUGtLWps6Se9o1qWdwNwuUtdWdr",
+        "name": "SGTstake",
+        "website": "https://sgtstake.com/",
+        "description": "Professional staking service provider",
+        "fee": 5
     }
 ]

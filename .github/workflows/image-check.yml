@@ -17,7 +17,7 @@ jobs:
 
       - name: Check image name
         run: |
-          for file in $(find validators/assets -type f -name "*.png"); do
+          for file in $(find validators/assets -type f -name "*"); do
             if [ "$(basename $file)" != "logo.png" ]; then
               echo "Image name is not logo.png"
               echo "The image that does not meet the requirements is $file"

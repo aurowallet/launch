@@ -229,5 +229,12 @@
         "website": "https://orang3.club/",
         "description": "We love oranges!",
         "fee": 10
+    },
+        {
+        "id": "B62qix9vooX5NqJYo8nT6xWqCeQu5AJoS1ng6FRnUpVAra6PAZZ1CU4  ",
+        "name": "BloClick",
+        "website": "https://bloclick.com/",
+        "description": "Your one-click staking station :)",
+        "fee": 5
     }
 ]

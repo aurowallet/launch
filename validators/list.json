@@ -229,5 +229,12 @@
         "website": "https://orang3.club/",
         "description": "We love oranges!",
         "fee": 10
+    },
+    {
+        "id": "B62qpYmDbDJAyADVkJzydoz7QeZy1ZTiWeH1LSuyMxXezvu5mAQi53U",
+        "name": "Everstake",
+        "website": "https://everstake.one/",
+        "description": "Genesis validator in Mina Protocol with 100% performance, trusted by over 625,000 users for secure and reliable validation services.",
+        "fee": 5
     }
 ]

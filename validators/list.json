@@ -42,13 +42,6 @@
         "fee": 8
     },
     {
-        "id": "B62qpYmDbDJAyADVkJzydoz7QeZy1ZTiWeH1LSuyMxXezvu5mAQi53U",
-        "name": "Everstake",
-        "website": "https://everstake.one",
-        "description": "",
-        "fee": 5
-    },
-    {
         "id": "B62qrHzjcZbYSsrcXVgGko7go1DzSEBfdQGPon5X4LEGExtNJZA4ECj",
         "name": "ZKValidator",
         "website": "https://zkvalidator.com",
@@ -230,11 +223,32 @@
         "description": "We love oranges!",
         "fee": 10
     },
-        {
+    {
+        "id": "B62qpYmDbDJAyADVkJzydoz7QeZy1ZTiWeH1LSuyMxXezvu5mAQi53U",
+        "name": "Everstake",
+        "website": "https://everstake.one/",
+        "description": "Genesis validator in Mina Protocol with 100% performance, trusted by over 625,000 users for secure and reliable validation services.",
+        "fee": 5
+    },
+    {
+        "id": "B62qq6ceNHCu9mSBvczmHS5JzHC4zw5U9KLALuwZPemeksx82AEfQSr",
+        "name": "goto5k",
+        "website": "https://goto5k.com/",
+        "description": "INDEPENDENT VALIDATOR AND AMABASSADOR",
+        "fee": 5
+    },
+    {
+        "id": "B62qix9vooX5NqJYo8nT6xWqCeQu5AJoS1ng6FRnUpVAra6PAZZ1CU4  ",
+        "name": "BloClick",
+        "website": "https://bloclick.com/",
+        "description": "Your one-click staking station :)",
+        "fee": 5
+    },
+    {
         "id": "B62qrd9rWJtyr1gVCtVcdn8eTmPs9RvGVBJYid1SsPzjVE2UhPDNUx1",
         "name": "Time4Girls2DoCrypto",
         "website": "https://girlsdoingcrypto.com/",
         "description": "Time 4 Girls 2 Do Crypto!",
         "fee": 5
-    }
+    }  
 ]

@@ -21,3 +21,19 @@ jobs:
               exit 1
             fi
           done
+      - name: Validate JSON file space
+        run: |
+          if [ ! -f "validators/list.json" ]; then
+            echo "File not found!"
+            exit 1
+          fi
+
+          if ! jq empty validators/list.json > /dev/null 2>&1; then
+            echo "Invalid JSON file!"
+            exit 1
+          fi
+
+          if grep -qE '\"[[:space:]]+|\"[[:space:]]+$|:\s+\"|,\s+\"' validators/list.json; then
+            echo "JSON file contains values with leading or trailing spaces!"
+            exit 1
+          fi

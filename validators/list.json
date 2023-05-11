@@ -229,5 +229,12 @@
         "website": "https://orang3.club/",
         "description": "We love oranges!",
         "fee": 10
+    },
+    {
+        "id": "B62qq6ceNHCu9mSBvczmHS5JzHC4zw5U9KLALuwZPemeksx82AEfQSr",
+        "name": "goto5k",
+        "website": "https://goto5k.com/",
+        "description": "INDEPENDENT VALIDATOR AND AMABASSADOR",
+        "fee": 5
     }
 ]

@@ -243,5 +243,12 @@
         "website": "https://bloclick.com/",
         "description": "Your one-click staking station :)",
         "fee": 5
-    }
+    },
+    {
+        "id": "B62qrd9rWJtyr1gVCtVcdn8eTmPs9RvGVBJYid1SsPzjVE2UhPDNUx1",
+        "name": "Time4Girls2DoCrypto",
+        "website": "https://girlsdoingcrypto.com/",
+        "description": "Time 4 Girls 2 Do Crypto!",
+        "fee": 5
+    }  
 ]

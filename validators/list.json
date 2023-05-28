@@ -250,5 +250,12 @@
 	"website": "https://t.me/+BdV3T8KPLbhmNzRi",
 	"description": "Enjoy perfect service with zero fees provided from the Mina's genesis",
 	"fee": 0
-    }
+    },
+    {
+	"id": "B62qn2Ne2JGRdbHXdfD8wkA6PTWuBjaxUDQ6QuPAmggrcYjTP3HwWkF",
+	"name": "Mina_Staking",
+	"website": "https://t.me/Viper_Pegas",
+	"description": "GENESIS VALIDATOR",
+	"fee": 5
+    }	
 ]

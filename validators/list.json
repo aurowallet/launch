@@ -164,8 +164,8 @@
         "id": "B62qoB94nRGJFTf9qzXVUDnLC88zt7fBcxdfTsr2FmByJqKNHFy6GH5",
         "name": "PeachStake",
         "website": "",
-        "description": "",
-        "fee": 3
+        "description": "Safety, Professionalism, Trust.",
+        "fee": 5
     },
     {
         "id": "B62qqSDsgPh4c6E4DQw1Rbo1dCtZJMivQtXTDJcL58m95pydVupDDRE",
@@ -245,17 +245,24 @@
         "fee": 5
     },
     {
-	"id": "B62qrae3PEBj66KV2obWnzVxMjDCMuFWnyzxEzvLkQutaKPmWtfUPm3",
-	"name": "0% atomi 0%",
-	"website": "https://t.me/+BdV3T8KPLbhmNzRi",
-	"description": "Enjoy perfect service with zero fees provided from the Mina's genesis",
-	"fee": 0
+        "id": "B62qrae3PEBj66KV2obWnzVxMjDCMuFWnyzxEzvLkQutaKPmWtfUPm3",
+        "name": "0% atomi 0%",
+        "website": "https://t.me/+BdV3T8KPLbhmNzRi",
+        "description": "Enjoy perfect service with zero fees provided from the Mina's genesis",
+        "fee": 0
+    },
+    {	
+        "id": "B62qnYBehkVZzgJBCC5yhFyF2L7mMRPsVnKW2xpcWFVuQYRVgoqwDCS",
+        "name": "CryptoholicVN",
+        "website": "https://cryptoholicvn.com",
+        "description": "One of the largest crypto communities in Vietnam, powered by OnBlock Ventures",
+        "fee": 5
     },
     {
-	"id": "B62qn2Ne2JGRdbHXdfD8wkA6PTWuBjaxUDQ6QuPAmggrcYjTP3HwWkF",
-	"name": "Mina_Staking",
-	"website": "https://t.me/Viper_Pegas",
-	"description": "GENESIS VALIDATOR",
-	"fee": 5
-    }	
+        "id": "B62qn2Ne2JGRdbHXdfD8wkA6PTWuBjaxUDQ6QuPAmggrcYjTP3HwWkF",
+        "name": "Mina_Staking",
+        "website": "https://t.me/Viper_Pegas",
+        "description": "GENESIS VALIDATOR",
+        "fee": 5
+    }
 ]

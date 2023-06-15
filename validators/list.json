@@ -265,4 +265,11 @@
         "description": "GENESIS VALIDATOR",
         "fee": 5
     }
+    {
+        "id": "B62qn7KLcjFRqNhnUngn2iky62Lq4E8G2t66KdFKTdeJUzwoEkPsSmJ",
+        "name": "Gu Wen de jie dian",
+        "website": "wu",
+        "description": "Wo Shi ZhongWenSheQu GuWen,Qing FangXin WeiTuo Gei Wo,Bu Hui Pao Lu",
+        "fee": 5
+    }
 ]

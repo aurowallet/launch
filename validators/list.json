@@ -278,5 +278,12 @@
         "website": "",
         "description": "",
         "fee": 100
+    },
+        {
+        "id": "B62qkCBzfCu5ma93fapuvEP1kB8io2i88zijQftn5YrBzSqWHJjtiX4",
+        "name": "5ElementsNodes",
+        "website": "https://www.5elementsnodes.com/",
+        "description": "Committed to providing top class validator service to ease your staking and earn passively. Grow with us!",
+        "fee": 3
     }
 ]

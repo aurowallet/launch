@@ -22,9 +22,9 @@
     },
     {
         "id": "B62qqV16g8s744GHM6Dph1uhW4fggYwyvtDnVSoRUyYqNvTir3Rqqzx",
-        "name": "Staketab",
+        "name": "Minascan Pool | Staketab",
         "website": "https://staketab.com",
-        "description": "",
+        "description": "Fast and high-quality explorer.",
         "fee": 7
     },
     {
@@ -32,7 +32,7 @@
         "name": "InfStones",
         "website": "https://infstones.io/",
         "description": "",
-        "fee":
+        "fee": 10
     },
     {
         "id": "B62qs2Lw5WZNSjd8eHBUZXFYyRjV8oKtrZMFDn1S1Ye62G71xCQJMYM",
@@ -40,13 +40,6 @@
         "website": "https://p2p.org",
         "description": "",
         "fee": 8
-    },
-    {
-        "id": "B62qpYmDbDJAyADVkJzydoz7QeZy1ZTiWeH1LSuyMxXezvu5mAQi53U",
-        "name": "Everstake",
-        "website": "https://everstake.one",
-        "description": "",
-        "fee": 5
     },
     {
         "id": "B62qrHzjcZbYSsrcXVgGko7go1DzSEBfdQGPon5X4LEGExtNJZA4ECj",
@@ -71,9 +64,9 @@
     },
     {
         "id": "B62qq6ZYPG5JsjZnGJ3pADmRn6hU6qy13EhraTSymjSgyEDwoDR9Gd6",
-        "name": "Carbonara WeStake.club",
+        "name": "⚡️Carbonara WeStake.club",
         "website": "https://mina.westake.club/",
-        "description": "",
+        "description": "Community pool and builders for Mina with small fee.",
         "fee": 2
     },
     {
@@ -82,13 +75,6 @@
         "website": "",
         "description": "",
         "fee": 0.1
-    },
-    {
-        "id": "B62qkj3CCj2V3pBPPufCuWSkoP2RwjAZkgPZfLKFUae3hPoBEhRtmyo",
-        "name": "BiXinKeLePool",
-        "website": "https://www.kelepool.com",
-        "description": "",
-        "fee": 10
     },
     {
         "id": "B62qnSjFGjZ39C8iDGMErbFSX5NvKVyvjvHxvf7U1oDmyeU6ynxXZZF",
@@ -115,13 +101,6 @@
         "id": "B62qpXqPzauUXLnsAQFnYHMCiV9pRqG2wqbJ4pL936SVANHa66zkkQj",
         "name": "LowFeeValidation",
         "website": "https://lowfeevalidation.com",
-        "description": "",
-        "fee": 0
-    },
-    {
-        "id": "B62qrae3PEBj66KV2obWnzVxMjDCMuFWnyzxEzvLkQutaKPmWtfUPm3",
-        "name": "atomi",
-        "website": "",
         "description": "",
         "fee": 0
     },
@@ -166,5 +145,145 @@
         "website": "http://uniqlabs.org/",
         "description": "Stake with us.",
         "fee": 5
+    },
+    {
+        "id": "B62qjWchpjVwmbEazciy3VSBZhJNVF28RcDQirLFpH2rvfmDrtXL382",
+        "name": "ImStaked",
+        "website": "https://imstaked.com/mina-protocol",
+        "description": "Genesis Founding Member",
+        "fee": 8
+    },
+    {
+        "id": "B62qkj3CCj2V3pBPPufCuWSkoP2RwjAZkgPZfLKFUae3hPoBEhRtmyo",
+        "name": "BiXinKeLePool",
+        "website": "https://www.kelepool.com",
+        "description": "KelePool dedicates to providing a neutral and reliable infrastructure for blockchain.",
+        "fee": 100
+    },
+    {
+        "id": "B62qoB94nRGJFTf9qzXVUDnLC88zt7fBcxdfTsr2FmByJqKNHFy6GH5",
+        "name": "PeachStake",
+        "website": "",
+        "description": "Safety, Professionalism, Trust.",
+        "fee": 5
+    },
+    {
+        "id": "B62qqSDsgPh4c6E4DQw1Rbo1dCtZJMivQtXTDJcL58m95pydVupDDRE",
+        "name": "WellDoneStake",
+        "website": "https://welldonestake.co",
+        "description": "Your reliable staking provider.",
+        "fee": 5
+    },
+    {
+        "id": "B62qik2auL1VbkX6fijdzwT6fGgjpi8caKUH6vbov573DbdT2UbQkDp",
+        "name": "0base.vc",
+        "website": "https://0base.vc",
+        "description": "Genesis Founding Member. Mina, Solana, and Cosmos Ecosystem Validator",
+        "fee": 5
+    },
+    {
+        "id": "B62qmLRLxC5Fx3cRmHDwKGq6psCbmXAYE1UsS4Z1foqrXCTtJuvTbbL",
+        "name": "Staker Space",
+        "website": "https://staker.space/",
+        "description": "Independent node operator that values decentralization!",
+        "fee": 5
+    },
+    {
+        "id": "B62qpanxZjnQLtZHQfY8VGgCYyE29aDcG7BL2KwkQJbDzaSxwwZqT7i",
+        "name": "o2Stake",
+        "website": "https://www.o2stake.com/",
+        "description": "Validator since Mina Genesis!",
+        "fee": 100
+    },
+    {
+        "id": "B62qkd4tZQGe9mo5tK3wQi5PUoMdtUGtLWps6Se9o1qWdwNwuUtdWdr",
+        "name": "SGTstake",
+        "website": "https://sgtstake.com/",
+        "description": "Professional staking service provider",
+        "fee": 5
+    },
+    {
+        "id": "B62qmM9KDeqvu3TVpQStGJARgg7KppxE8UF3xMdtKV9TDc33kSUGug5",
+        "name": "P2P Staking",
+        "website": "https://p2pstaking.org/",
+        "description": "Eco responsible staking service provider & Mina genesis member",
+        "fee": 5
+    },
+    {
+        "id": "B62qjwAoLA1iT82EQQidZDDovQND5PeJtmcZXq7USbNDGEqgYnBbKam",
+        "name": "OranG3cluB",
+        "website": "https://orang3.club/",
+        "description": "We love oranges!",
+        "fee": 10
+    },
+    {
+        "id": "B62qpYmDbDJAyADVkJzydoz7QeZy1ZTiWeH1LSuyMxXezvu5mAQi53U",
+        "name": "Everstake",
+        "website": "https://everstake.one/",
+        "description": "Genesis validator in Mina Protocol with 100% performance, trusted by over 625,000 users for secure and reliable validation services.",
+        "fee": 5
+    },
+    {
+        "id": "B62qq6ceNHCu9mSBvczmHS5JzHC4zw5U9KLALuwZPemeksx82AEfQSr",
+        "name": "goto5k",
+        "website": "https://goto5k.com/",
+        "description": "INDEPENDENT VALIDATOR AND AMABASSADOR",
+        "fee": 5
+    },
+    {
+        "id": "B62qix9vooX5NqJYo8nT6xWqCeQu5AJoS1ng6FRnUpVAra6PAZZ1CU4",
+        "name": "BloClick",
+        "website": "https://bloclick.com/",
+        "description": "Your one-click staking station :)",
+        "fee": 5
+    },
+    {
+        "id": "B62qrd9rWJtyr1gVCtVcdn8eTmPs9RvGVBJYid1SsPzjVE2UhPDNUx1",
+        "name": "Time4Girls2DoCrypto",
+        "website": "https://girlsdoingcrypto.com/",
+        "description": "Time 4 Girls 2 Do Crypto!",
+        "fee": 5
+    },
+    {
+        "id": "B62qrae3PEBj66KV2obWnzVxMjDCMuFWnyzxEzvLkQutaKPmWtfUPm3",
+        "name": "0% fee * atomi",
+        "website": "https://t.me/+BdV3T8KPLbhmNzRi",
+        "description": "Enjoy perfect service with zero fees provided from the Mina's genesis",
+        "fee": 0
+    },
+    {	
+        "id": "B62qnYBehkVZzgJBCC5yhFyF2L7mMRPsVnKW2xpcWFVuQYRVgoqwDCS",
+        "name": "CryptoholicVN",
+        "website": "https://cryptoholicvn.com",
+        "description": "One of the largest crypto communities in Vietnam, powered by OnBlock Ventures",
+        "fee": 5
+    },
+    {
+        "id": "B62qn2Ne2JGRdbHXdfD8wkA6PTWuBjaxUDQ6QuPAmggrcYjTP3HwWkF",
+        "name": "Mina_Staking",
+        "website": "https://t.me/Viper_Pegas",
+        "description": "GENESIS VALIDATOR",
+        "fee": 5
+    },
+    {
+        "id": "B62qn7KLcjFRqNhnUngn2iky62Lq4E8G2t66KdFKTdeJUzwoEkPsSmJ",
+        "name": "Gu Wen de jie dian",
+        "website": "",
+        "description": "Wo Shi ZhongWenSheQu GuWen,Qing FangXin WeiTuo Gei Wo,Bu Hui Pao Lu",
+        "fee": 5
+    },
+    {
+        "id": "B62qieF1JqvUzNj7pGQgNesGrGo4zJJBtqyTppcc1BwD6NV4Hn5jgFk",
+        "name": "BlueFish",
+        "website": "",
+        "description": "",
+        "fee": 100
+    },
+        {
+        "id": "B62qkCBzfCu5ma93fapuvEP1kB8io2i88zijQftn5YrBzSqWHJjtiX4",
+        "name": "5ElementsNodes",
+        "website": "https://www.5elementsnodes.com/",
+        "description": "Committed to providing top class validator service to ease your staking and earn passively. Grow with us!",
+        "fee": 3
     }
 ]

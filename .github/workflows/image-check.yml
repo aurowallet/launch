@@ -1,0 +1,38 @@
+name: Check image
+
+on:
+  pull_request:
+    paths:
+      - validators/assets/**/*
+
+jobs:
+  check-image-size:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install ImageMagick
+        run: sudo apt-get install -y imagemagick
+
+      - name: Check image name
+        run: |
+          for file in $(find validators/assets -type f -name "*"); do
+            if [ "$(basename $file)" != "logo.png" ]; then
+              echo "Image name is not logo.png"
+              echo "The image that does not meet the requirements is $file"
+              exit 1
+            fi
+          done
+          
+      - name: Check image size
+        run: |
+          for file in $(find validators/assets -type f -name "*.png"); do
+            width=$(identify -format "%w" $file)
+            height=$(identify -format "%h" $file)
+            if [ $width -gt 128 ] || [ $height -gt 128 ]; then
+              echo "Image size does not meet requirements"
+              echo "The image that does not meet the requirements is $file"
+              exit 1
+            fi
+          done

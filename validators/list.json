@@ -279,11 +279,18 @@
         "description": "",
         "fee": 100
     },
-        {
+    {
         "id": "B62qkCBzfCu5ma93fapuvEP1kB8io2i88zijQftn5YrBzSqWHJjtiX4",
         "name": "5ElementsNodes",
         "website": "https://www.5elementsnodes.com/",
         "description": "Committed to providing top class validator service to ease your staking and earn passively. Grow with us!",
         "fee": 3
+    },
+    {
+        "id": "B62qpsyB3gCndt8sNz4GRwusBtg9U72TNiL4mxmcQfWKZ5noa9fFnWr",
+        "name": "Naamah Stake",
+        "website": "https://mina.naamahdaemon.eu/",
+        "description": "1% fee throughout the year 2024. 99% of the rewards will be redistributed to the delegators!",
+        "fee": 1
     }
 ]

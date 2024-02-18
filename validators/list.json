@@ -292,5 +292,12 @@
         "website": "https://mina.naamahdaemon.eu/",
         "description": "Only a 1% fee for independent delegators until the total independent stake reaches 500k Minas. 99% of the rewards will be redistributed to the delegators!",
         "fee": 1
+    },
+    {
+	"id": "B62qnGyBRFMuzQwiuGjLAusffeRvqcRrxirrxQrAZpTHDm9PRv94gfY",
+	"name": "Tuath DAO",
+	"website": "",
+	"description": "",
+	"fee": 4
     }
 ]

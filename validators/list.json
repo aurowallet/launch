@@ -274,10 +274,10 @@
     },
     {
         "id": "B62qieF1JqvUzNj7pGQgNesGrGo4zJJBtqyTppcc1BwD6NV4Hn5jgFk",
-        "name": "BlueFish",
+        "name": "BlueFish Staking",
         "website": "",
-        "description": "",
-        "fee": 100
+        "description": "Low 5% fee validator",
+        "fee": 5
     },
     {
         "id": "B62qkCBzfCu5ma93fapuvEP1kB8io2i88zijQftn5YrBzSqWHJjtiX4",

@@ -7,13 +7,6 @@
         "fee": 5
     },
     {
-        "id": "B62qrui6wB5ZUxBQwkWMG8cmtpMuK6sPRn1hLstKLi25CecdfcistdE",
-        "name": "zkok validator",
-        "website": "https://zkok.io",
-        "description": "Mina's community hub",
-        "fee": 5
-    },
-    {
         "id": "B62qpge4uMq4Vv5Rvc8Gw9qSquUYd6xoW1pz7HQkMSHm6h1o7pvLPAN",
         "name": "Mina Explorer",
         "website": "https://www.minaexplorer.com",
@@ -306,5 +299,12 @@
 	"website": "",
 	"description": "",
 	"fee": 4
-    }
+    },
+    {
+        "id": "B62qrui6wB5ZUxBQwkWMG8cmtpMuK6sPRn1hLstKLi25CecdfcistdE",
+        "name": "zkok validator",
+        "website": "https://zkok.io",
+        "description": "Mina's community hub",
+        "fee": 5
+    },
 ]

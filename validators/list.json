@@ -306,5 +306,13 @@
         "website": "https://zkok.io",
         "description": "Mina's community hub",
         "fee": 5
+    },
+    {
+        "id": "B62qmqprUwxHxG6uGDQe48Xys9diJhunEqQNRuFC5a1KBUNsDaNADgj",
+        "name": "B62 %0 Fee",
+        "website": "https://b62node.com",
+        "description": "",
+        "fee": 0
     }
+	
 ]

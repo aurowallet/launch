@@ -320,5 +320,12 @@
         "website": "https://elementalaction.org",
         "description": "501(c)3 non-profit researching and building creative charitable solutions",
         "fee": 5
+    },
+    {
+        "id": "B62qksN97EtNvQGzH2RAgnDR8zLAawhPNE1QzWCgPRcknyL6NJ3CCgJ",
+        "name": "D-Stake",
+        "website": "https://d-stake.xyz",
+        "description": "PoS Validator",
+        "fee": 5
     }
 ]

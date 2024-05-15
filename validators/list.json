@@ -327,5 +327,12 @@
         "website": "https://d-stake.xyz",
         "description": "PoS Validator",
         "fee": 5
+    },
+    {
+        "id": "B62qp4jr1PgwK42Ah4HG2qNHigTw5riKFr6RprguAX6ms8ArDcdGv7a",
+        "name": "Andrew38",
+        "website": "",
+        "description": "Your reliable staking provider at Mina, Solana, EigenDA  and others",
+        "fee": 5
     }
 ]

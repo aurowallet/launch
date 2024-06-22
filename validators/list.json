@@ -334,5 +334,12 @@
         "website": "",
         "description": "Your reliable staking provider at Mina, Solana, EigenDA  and others",
         "fee": 5
+    },
+    {
+        "id": "B62qoVopcNoQPFydweGWUBnJJbrokkebVDiWGmAzYoaLysrFfzNCbya",
+        "name": "PathrockNetwork",
+        "website": "https://pathrocknetwork.org/",
+        "description": "Secure Non-Custodial Staking for PoS Blockchain Projects",
+        "fee": 5
     }
 ]

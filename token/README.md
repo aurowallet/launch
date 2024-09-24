@@ -22,7 +22,7 @@
 
 **2. Make a folder with tokenID, add your token icon to "{networkID}/assets/{tokenID}/icon.png"**
 
-- Icon resolution should be 128\*128px
+- Icon resolution should be 144\*144px
 - Icon name should be `icon.png`
 
 **3. Provide less test token to this address B62qpjxUpgdjzwQfd8q2gzxi99wN7SCgmofpvw27MBkfNHfHoY2VH32**

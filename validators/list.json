@@ -341,5 +341,12 @@
         "website": "https://pathrocknetwork.org/",
         "description": "Secure Non-Custodial Staking for PoS Blockchain Projects",
         "fee": 5
+    },
+    {
+        "id": "B62qogJZq1uHm6CK818YpsSYKNU3eG6goyT3kSEUeudLpANztv61ohn",
+        "name": "PilotBP",
+        "website": "",
+        "description": "Pilot BP",
+        "fee": 0.01
     }
 ]

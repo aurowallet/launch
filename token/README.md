@@ -43,7 +43,7 @@ Add the signature of the `token.json` file submitted or updated in step 1 to the
 
 - Use the `Mina Sign` box in [test-zkApp](https://test-zkapp.aurowallet.com/).
   - In the `Mina Sign` module, fill in `JSON.stringify(submitContent)`, sign with the token account, and submit the signed result as a comment.
-- Alternatively, use `client.signMessage` from [mina-signer](https://www.npmjs.com/package/mina-signer) with the following code:
+- Use `client.signMessage` from [mina-signer](https://www.npmjs.com/package/mina-signer) with the following code:
 
 ```js
 const submitContent = {
@@ -53,6 +53,7 @@ const submitContent = {
   symbol: "7UjV6",
   decimal: "6",
   description: "Auro test token in Mainnet",
+  website: "https://www.aurowallet.com/"
 };
 
 const unsignedMessage = JSON.stringify(submitContent);

@@ -15,7 +15,7 @@ Example format for the token:
   "name": "TEST",
   "symbol": "7UjV6",
   "decimal": "6",
-  "description": "Auro test token in mainnet",
+  "description": "Auro test token in Mainnet",
   "website": "https://www.aurowallet.com/"
 }
 ```
@@ -52,7 +52,7 @@ const submitContent = {
   name: "TEST",
   symbol: "7UjV6",
   decimal: "6",
-  description: "Auro test token in mainnet",
+  description: "Auro test token in Mainnet",
 };
 
 const unsignedMessage = JSON.stringify(submitContent);

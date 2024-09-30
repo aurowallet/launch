@@ -9,7 +9,7 @@
 ```
     {
         "id": "xLpobAxWSYZeyKuiEb4kzHHYQKn6X1vKmFR4Dmz9TCADLrYTD1",
-        "owner": "B62qmMv99rMLCjnApLERcvof6fP4YD4wqeCXUrFuthHfTNoHbYgmy1i",
+        "address": "B62qmMv99rMLCjnApLERcvof6fP4YD4wqeCXUrFuthHfTNoHbYgmy1i",
         "name": "TEST",
         "symbol": "7UjV6",
         "decimal": "6",
@@ -44,7 +44,7 @@ Currently we are using the [fungible token contract](https://github.com/MinaFoun
 ```js
 const submitContent = {
   id: "xLpobAxWSYZeyKuiEb4kzHHYQKn6X1vKmFR4Dmz9TCADLrYTD1",
-  owner: "B62qmMv99rMLCjnApLERcvof6fP4YD4wqeCXUrFuthHfTNoHbYgmy1i",
+  address: "B62qmMv99rMLCjnApLERcvof6fP4YD4wqeCXUrFuthHfTNoHbYgmy1i",
   name: "TEST",
   symbol: "7UjV6",
   decimal: "6",

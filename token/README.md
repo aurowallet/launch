@@ -40,7 +40,7 @@ We currently use the [fungible token contract](https://github.com/MinaFoundation
 **5. Verify Token Ownership**
 
 Add the signature of the `token.json` file submitted or updated in step 1 to the PR comment. This should be signed using the token account.
-Now can get the signed message in [Auro-test-zkApp](https://test-zkapp.aurowallet.com/token-submit).
+Now can get the signed message in [Auro-Test-zkApp](https://test-zkapp.aurowallet.com/token-submit).
 ```
 Need to submit the information submitted in the first step and the signed message for verification.
 Example: {"field":"10082789485841188200651752083435401189651661935760768844006925598425995295018","scalar":"13559698666955008071097956591497128241909562564253145138590504826423557135826"}

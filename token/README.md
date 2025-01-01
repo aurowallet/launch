@@ -16,8 +16,20 @@ Example format for the token:
   "symbol": "7UjV6",
   "decimal": "6",
   "description": "Auro test token in Mainnet",
-  "website": "https://www.aurowallet.com/"
+  "website": "https://www.aurowallet.com/",
+  "fungibleTokenVersion": "1.1.0"
 }
+```
+```md
+fungibleTokenVersion is an optional field. The content should be one of the version fields in https://www.npmjs.com/package/mina-fungible-token
+
+The content is the version of mina-fungible-token currently in use.
+Auro Wallet uses the latest version by default.
+
+- If set, Auro Wallet will use the target version of the mina-fungible-token.
+- If not set, the latest mina-fungible-token will be used by default.
+
+Custom tokens do not need to set fungibleTokenVersion.
 ```
 
 **2. Create a folder with the token ID and add your token icon to `{networkID}/assets/{tokenID}/icon.png`.**
@@ -30,6 +42,8 @@ Example format for the token:
 You can use the Mainnet or Testnet for this. The purpose is to test whether the token can be send normally before the merge.
 Send tokens to the following address for testing:
 **B62qpjxUpgdjzwQfd8q2gzxi99wN7SCgmofpvw27MBkfNHfHoY2VH32**
+
+We will send token to your sending address after the test is completed (return to the original address)
 
 **4. Provide the token contract source code (Optional)**
 

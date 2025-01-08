@@ -63,3 +63,14 @@ Example: {"field":"1008278948584118820065175208343540118965166193576076884400692
 **6. Create a PR**
 
 Once all steps are completed, create a PR for review.
+
+## Disclaimer
+
+Auro Wallet provides this repository and its contents on an "AS IS" and "AS AVAILABLE" basis without any representations or warranties of any kind, either express or implied. To the fullest extent permitted by applicable law, Auro Wallet expressly disclaims all warranties, including but not limited to:
+
+1. Warranty of Merchantability: No assurance is provided that the tokens or associated services are merchantable or fit for sale.
+2. Warranty of Fitness for a Particular Purpose: Auro Wallet does not guarantee that the tokens or associated services will meet your specific requirements or expectations.
+3. Warranty of Title: Auro Wallet does not warrant that it owns or has the necessary rights to provide the tokens or associated services without encumbrances.
+4. Warranty Against Infringement: Auro Wallet makes no representations regarding non-infringement of intellectual property or other proprietary rights of any third party.
+
+These disclaimers apply regardless of whether the warranties are implied by law, arise from a course of dealing, course of performance, usage of trade, or otherwise.

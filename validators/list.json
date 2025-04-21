@@ -341,5 +341,12 @@
         "website": "",
         "description": "Pilot BP",
         "fee": 0.01
+    },
+    {
+        "id": "B62qjWmFMiYUiWGvisVof9mbiKi2sB1FhZdwiDyXi8nMCoLDJuFaRYY",
+        "name": "Encapsulate",
+        "website": "https://www.encapsulate.xyz",
+        "description": "Others Trust, We Validate! Your Stake is Important to Us. Secure Networks while You Earn Rewards",
+        "fee": 5
     }
 ]

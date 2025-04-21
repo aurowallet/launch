@@ -273,13 +273,6 @@
         "fee": 5
     },
     {
-        "id": "B62qieF1JqvUzNj7pGQgNesGrGo4zJJBtqyTppcc1BwD6NV4Hn5jgFk",
-        "name": "BlueFish Staking",
-        "website": "",
-        "description": "Low 5% fee validator",
-        "fee": 5
-    },
-    {
         "id": "B62qkCBzfCu5ma93fapuvEP1kB8io2i88zijQftn5YrBzSqWHJjtiX4",
         "name": "5ElementsNodes",
         "website": "https://www.5elementsnodes.com/",

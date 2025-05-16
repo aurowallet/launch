@@ -348,5 +348,12 @@
         "website": "https://www.encapsulate.xyz",
         "description": "Others Trust, We Validate! Your Stake is Important to Us. Secure Networks while You Earn Rewards",
         "fee": 5
+    },
+    {
+        "id": "B62qrnPdz8HpsDJfGHirDLpVrN2VeyeitdaTKBaccWtHpeVW9Hgwi75",
+        "name": "POSTHUMAN",
+        "website": "https://posthuman.digital",
+        "description": "Stake with POSTHUMAN and join the $PHMN StakeDrop, held twice a quarter: claim.posthuman.digital. A trusted distributed validator since 2019, POSTHUMAN delivers experienced, community-focused PoS validation.",
+        "fee": 8
     }
 ]

@@ -246,10 +246,10 @@
     },
     {
         "id": "B62qrae3PEBj66KV2obWnzVxMjDCMuFWnyzxEzvLkQutaKPmWtfUPm3",
-        "name": "0% fee * atomi",
+        "name": "atomi",
         "website": "https://t.me/+BdV3T8KPLbhmNzRi",
-        "description": "Enjoy perfect service with zero fees provided from the Mina's genesis",
-        "fee": 0
+        "description": "Perfect service provided from the Mina's genesis",
+        "fee": 5
     },
     {	
         "id": "B62qnYBehkVZzgJBCC5yhFyF2L7mMRPsVnKW2xpcWFVuQYRVgoqwDCS",

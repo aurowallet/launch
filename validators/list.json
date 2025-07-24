@@ -251,7 +251,7 @@
         "description": "Perfect service provided from the Mina's genesis",
         "fee": 5
     },
-    {	
+    {
         "id": "B62qnYBehkVZzgJBCC5yhFyF2L7mMRPsVnKW2xpcWFVuQYRVgoqwDCS",
         "name": "CryptoholicVN",
         "website": "https://cryptoholicvn.com",
@@ -354,6 +354,13 @@
         "name": "POSTHUMAN",
         "website": "https://posthuman.digital",
         "description": "Stake with POSTHUMAN and join the $PHMN StakeDrop, held twice a quarter: claim.posthuman.digital. A trusted distributed validator since 2019, POSTHUMAN delivers experienced, community-focused PoS validation.",
+        "fee": 8
+    },
+    {
+        "id": "B62qkneVMyQMprAr88jZJqpE5Tcpo9vUYM8eHtnoqgSNW3SNYPev4zY",
+        "name": "Ebunker",
+        "website": "https://www.ebunker.io/",
+        "description": "Ebunker is a leading non-custodial staking service provider focused on delivering secure, transparent, and high-performance infrastructure for blockchain networks. As a trusted partner of protocols such as Lido, Ether.fi and SSV, Ebunker currently supports staking for over 400,000 ETH—representing approximately 1.2% of the Ethereum network—while advancing decentralization and reliability across the blockchain ecosystem. We aim to leverage our expertise to deliver stable, fast validator services to the Mina network.",
         "fee": 8
     }
 ]
